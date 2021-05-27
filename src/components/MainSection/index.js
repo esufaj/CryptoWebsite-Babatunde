@@ -13,7 +13,7 @@ const MainSection = () => {
 
 
     return (
-        <MainContainer>
+        <MainContainer id='home'>
             <MainBg>
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </MainBg>
